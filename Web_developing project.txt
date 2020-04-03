@@ -1,0 +1,489 @@
+<html>
+
+    <head>
+
+         <title>Technology-BBC News</title>
+        <style type="text/css">
+
+            #topbar{
+                
+                width: 1400px;
+                margin:0 auto;
+                
+                height:40px
+            }
+
+
+            #logo{
+
+                margin-top:8px;
+                width:100px;
+                float:left;
+                margin-right:8px;
+                
+            }
+            body{
+                margin: 0;
+                padding:0;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+
+            .topbar-section{
+
+                float:left;
+                border-left: 1px #CCCCCC solid;
+                height: 100%  ;
+            }
+
+            #signin-image{
+
+                width:25px;
+                margin: 12px;
+                float: left;
+            }
+
+            #signin-text{
+
+                font-weight: bold;
+                font-size: 90%;
+                position: relative;
+                top:14px;
+                padding-right: 55px;
+            }
+
+            .topbar-menu{
+
+                font-weight:bold;
+                font-size: 90%;
+                padding: 13px 15px 0 15px;
+                height: 27px;
+
+            }
+
+            #Arrow{
+
+                margin-left: 35px;
+            }
+
+            #search-box{
+
+                background-color: #E4E4E4;
+                border: none;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 5px;
+                margin: 5px 0 5px 15px ;
+                float: left;
+            }
+
+            #Mag-glass{
+
+                height: 27px;
+                margin-top: 5px; 
+
+            }
+
+            .clear{
+
+                clear:both;
+            }
+
+            #Menubar-container{
+
+                border-top: 1px solid #cccccc;
+                background-color: #BB1919;
+                width: 100%;
+                height:70px ;
+            }
+
+            #Menubar{
+
+                width: 1400px;
+                margin: 0 auto;
+            }
+
+            h1{
+                padding:0;
+                margin:0;
+                color:white;
+                font-size: 40px;
+                font-weight:normal;
+                padding-top:10px;
+            }
+
+            #Menubar2-container{
+
+                background-color: #A91717;
+                width:100%;
+            }
+
+            #Menubar2{
+
+                width:1400px;
+                margin: 0 auto;
+                height: 40px;
+
+            }
+
+            #Menubar2 a{
+
+                color:white;
+                text-decoration:none;
+                padding:0 10px;
+                border-right:1px solid #BB4545;
+                font-size: 18px;
+                position:relative;
+                top:11px;
+            }
+
+            #Menubar2 a:hover{
+
+                text-decoration: underline;
+
+
+            }
+
+            .no-border{
+
+                border: none !important;
+            }
+
+            #Pointer{
+
+                height:10px;
+                position: relative;
+                top: 10px;
+                
+            }
+
+            #Page-container{
+
+                width:1400px;
+                margin:0 auto;
+
+            }
+
+            h2{
+
+                font-weight: normal;
+                margin-top: 40px;
+                font-size: 20px;
+                border-bottom: 4px solid #a91717;
+                width:105px;
+            }
+
+            h3 a {
+
+                color:black;
+                font-size: 30px;
+                text-decoration: none;
+
+            }
+
+            h3 a:hover{
+
+                color:#1167a8;
+                text-decoration: underline;
+            }
+
+            #Article-summary{
+
+                color:#5a5a5a;
+                width:220px;
+                float:left;
+            }
+
+            .Clock{
+
+                height:15px;
+                position: relative;
+                top:2px;
+
+            }
+
+            #topic-link{
+
+                text-decoration: none;
+                color:#a91717;
+                border-left: 1px solid #CCCCCC;
+                padding-left:10px;
+
+            }
+
+            #Article-summary a:hover{
+
+                color:#1167a8;
+                text-decoration: underline;
+            }
+
+            .Date{
+
+                padding-right: 10px;
+                color:#5a5a5a;
+
+            }
+
+            #Article-container{
+
+                float: left;
+                width:800px;
+                border-right: 1px solid #CCCCCC;
+                padding:40px;
+
+            }
+
+            #Main-article-image{
+
+                width:550px;
+                margin-left: 20px;
+
+            }
+
+            #Article-hr{
+
+                border-top:1px solid #a91717;
+                width:50px;
+            }
+
+            .article-link{
+
+                color:black;
+                text-decoration: none;
+            }
+
+            #Watch-listen{
+
+                margin-left:20px;
+                width: 450px;
+                float:right;
+               
+            }
+
+            h4{
+
+                font-weight: normal;
+                font-size:20px;
+
+            }
+
+            .sideimage{
+
+                float:left;
+                width:150px;
+                margin-right: 10px;
+            }
+
+            .Watch-listen-link{
+
+              text-decoration: none;
+              color:black;
+              font-weight: bold;
+              font-size: 18px;
+
+            }
+
+            .Watch-listen-link:hover{
+
+                color:#1167a8;
+            }
+
+            .side-article{
+
+                float:right;
+                width:280px;
+                position: relative;
+                top:-15px;
+            }
+
+
+        </style>
+
+
+    </head>
+
+    <body>
+        <div id="topbar">
+
+            <img id="logo" src="BBC-logo.png">
+            <div id="signin-div" class="topbar-section">
+
+                <img id="signin-image"src="Signin.png">
+                
+                <span id="signin-text">Sign in</span>
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Home
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+                
+                News
+                
+            </div>
+
+            <div class="topbar-section topbar-menu">
+                
+                Sport
+                
+            </div>
+
+            <div class="topbar-section topbar-menu">
+                
+                Reel
+                
+            </div>
+
+            <div class="topbar-section topbar-menu">
+                
+                Worklife
+                
+            </div>
+
+            <div class="topbar-section topbar-menu">
+                
+                Travel  
+                
+            </div>
+ 
+            <div class="topbar-section topbar-menu">
+                
+                Future 
+                
+            </div>
+
+            <div class="topbar-section topbar-menu">
+                
+                Culture 
+                
+            </div>
+
+            <div class="topbar-section topbar-menu">
+                
+                More
+
+                <img id="Arrow" src="Arrow.png">
+            </div>
+
+            <div class="topbar-section">
+
+                <input id="search-box" type="text" value="Search">
+
+                <input type="image" id="Mag-glass" src="Mag-glass.png">
+
+            </div>
+        </div>
+
+        <div class="clear"></div>
+            <div id="Menubar-container">
+                <div id="Menubar">
+
+                    <h1>NEWS</h1>
+                </div>
+               
+                <div class="clear"></div>
+                <div id="Menubar2-container">
+                    <div id="Menubar2">
+
+                        <a href="">Home</a>
+
+                        <a href="">World</a>
+
+                        <a href="">UK</a>
+
+                        <a href="">Business</a>
+
+                        <a href="">Politics</a>
+
+                        <a href="">Tech</a>
+
+                        <a href="">Science</a>
+
+                        <a href="">Health</a>
+
+                        <a href="">Education</a>
+
+                        <a href="">Entertainment</a>
+
+                        <a href="">Video & Audio</a>
+
+                        <a href="" class="no-border">More</a>
+
+                        <img id="Pointer" src="Pointer.png">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+            <div id="Page-container">
+
+                <div id="Main-article">
+
+                    <h2>Technology</h2>
+                    <div id="Article-container">
+                    <h3><a href="">Laid off by Zoom: Start-ups cut staff by conference call</a></h3>
+                    
+                        <div id="Article-summary">
+
+                            <p>Two California-based start-ups confirm they have used the conference-call
+                             app to lay off staff.</p>
+
+                             <p><img class="Clock"src="Clock.png"> <span class="Date">19h</span> <a href="" id="topic-link">Technology</a></p>
+                             <hr id="Article-hr" align="left"> 
+                             
+                             <p><a class="article-link" href="">Zoom is in everyone's living room-how safe is
+                                  it?</a></p>
+                            </div>
+
+                        <img id="Main-article-image" src="Zoom.png">
+                    </div>
+
+                </div>
+                
+                <div id="Watch-listen">
+
+                    <h4>Watch/listen</h4>
+
+                    <img class="sideimage"src="Article1.png">
+
+                    <div class="side-article">
+
+                        <p><a class="Watch-listen-link" href="">Tech firm fixes
+                         broken Ventilators from stockpile</a></p>
+
+                         <p><img class="Clock" src="Clock.png"> <span class="Date">12h</span> <a href="" id="topic-link">Technology</a></p>
+                         <hr id="Article-hr" align="left"> 
+
+                    </div>   
+                    
+                    <div class="clear"></div>
+
+                    <img class="sideimage"src="Article3.png">
+
+                    <div class="side-article">
+
+                        <p><a class="Watch-listen-link" href="">YouTube stars urge fans
+                            to stay at home
+                        </a></p>
+
+                         <p><img class="Clock" src="Clock.png"> <span class="Date">1d</span></p>
+
+                    </div>   
+
+
+                </div>
+
+                
+            </div>
+        
+    </body>
+
+
+
+</html>
